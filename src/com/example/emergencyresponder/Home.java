@@ -37,7 +37,7 @@ public class Home extends Activity {
 	    switchact2.setOnClickListener(new View.OnClickListener() {
 	      @Override
 	      public void onClick(View view) {
-	    	  Uri skypeUri = Uri.parse("skype:madhukesh.ayyagari94"+"?call&video=true");
+	    	  Uri skypeUri = Uri.parse("skype:kvs.krishna1"+"?call&video=true");
 	          Intent myIntent = new Intent(Intent.ACTION_VIEW);
 	          myIntent.setData(skypeUri);
 	          startActivity(myIntent);
