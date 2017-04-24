@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".Home">
+    
+    
+
+    <Button
+        android:id="@+id/hospital_search"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/call_ambulance"
+        android:layout_below="@+id/firstaid"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/image4"
+        />
+
+    <Button
+        android:id="@+id/firstaid"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignRight="@+id/videocall"
+        android:layout_below="@+id/videocall"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/image3"
+        />
+
+    <Button
+        android:id="@+id/call_ambulance"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/videocall"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/image1" />
+
+    <Button
+        android:id="@+id/videocall"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/call_ambulance"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/image2" />
+
+</RelativeLayout>

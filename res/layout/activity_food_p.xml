@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".FoodP" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.Avoid solid foods until vomiting ends.
+        \n\n2.Then eat light, bland foods, such as saltine crackers, bananas, rice, or bread.
+        \n\n3.Sipping soda may help prevent vomiting.
+        \n\n4.Don’t eat fried, greasy, spicy, or sweet foods.
+        \n\n5.Don’t take anti-nausea or anti-diarrhea medication without asking your doctor. 
+        \n\n6.They may make some kinds of diarrhea worse. Your doctor may give you anti-nausea medication if you are at risk of being dehydrated.\n Prevent Dehydration : Drink clear fluids, starting with small sips and gradually drinking more.
+        \n\n7.If vomiting and diarrhea last more than 24 hours, drink an oral rehydration solution" />
+
+</RelativeLayout>

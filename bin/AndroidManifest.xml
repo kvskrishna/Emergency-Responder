@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.emergencyresponder"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.emergencyresponder.Home"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.FirstAid"
+            android:label="@string/title_activity_first_aid" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Sunstroke"
+            android:label="@string/title_activity_sunstroke" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Snakebite"
+            android:label="@string/title_activity_snakebite" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.BoneFracture"
+            android:label="@string/title_activity_bone_fracture" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Cut"
+            android:label="@string/title_activity_cut" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Burn"
+            android:label="@string/title_activity_burn" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.NoseBleed"
+            android:label="@string/title_activity_nose_bleed" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Splinter"
+            android:label="@string/title_activity_splinter" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.EyeTrauma"
+            android:label="@string/title_activity_eye_trauma" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Sting"
+            android:label="@string/title_activity_sting" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Allergy"
+            android:label="@string/title_activity_allergy" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Asthama"
+            android:label="@string/title_activity_asthama" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Bruises"
+            android:label="@string/title_activity_bruises" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Blisters"
+            android:label="@string/title_activity_blisters" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Choking"
+            android:label="@string/title_activity_choking" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.HeartAttack"
+            android:label="@string/title_activity_heart_attack" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Dizziness"
+            android:label="@string/title_activity_dizziness" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.EarPain"
+            android:label="@string/title_activity_ear_pain" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.Drowning"
+            android:label="@string/title_activity_drowning" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.FoodP"
+            android:label="@string/title_activity_food_p" >
+        </activity>
+        <activity
+            android:name="com.example.emergencyresponder.ForstB"
+            android:label="@string/title_activity_forst_b" >
+        </activity>
+    </application>
+
+</manifest>
